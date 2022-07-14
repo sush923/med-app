@@ -1,0 +1,27 @@
+<header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="navbar-brand align-item-center d-flex mx-2 my-2">
+            <i style="font-size: 40px;" class="fas fa-capsules">&nbsp;
+                
+            </i>
+            <strong style="font-size: 30px;">Med For Life</strong>
+            <span style="font-size: 10px;">ML</span>
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+            </div>
+            <span class="fas fa-search search-icon"></span>
+
+        </div>
+        <button routerLink="login" class="btn btn-secondary"> 
+            <i style="font-size: 30px; color: aliceblue;" class="fas fa-user"></i>
+        </button>
+        
+        <button routerLink="cart" class="btn btn-secondary">
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+         <button routerLink="admin" class="btn btn-dark"> 
+            <i style="font-size: 40px;margin-right:17px; color:bisque;" class="fas fa-user-circle"></i>
+        </button>
+    </div>
+</header>

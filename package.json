@@ -1,0 +1,14 @@
+{
+  "name": "fashion",
+  "version": "1.0.0",
+  "description": "\"fashion app\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sushma",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.4.4"
+  }
+}
